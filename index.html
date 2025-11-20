@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pandit Bishnu P. Sharma - Hindu Priest Services</title>
+  <meta name="description" content="Experienced Hindu Pandit for all kinds of pujas, weddings, havan, griha pravesh, last rites and Vedic rituals."/>
+
+  <!-- Google Fonts - Devanagari + English -->
+  <link href="https://fonts.googleapis.com/CSS2?family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --orange: #FF6B35;
+      --dark-orange: #E55A2B;
+      --gold: #FFD700;
+      --cream: #FFF8E7;
+      --dark: #2C1B18;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Hind Assam', sans-serif;
+            background: var(--cream);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--dark-orange); }
+
+    /* Header */
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1603291735556-2752fd0b52d4?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px 80px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    header p { font-size: 1.4rem; }
+
+    /* Navigation */
+        nav {
+      background: var(--dark);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 15px 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-weight: 600;
+    }
+    nav a:hover { background: var(--orange); }
+
+    /* Sections */
+    section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+     section:nth-child(even) { background: #fff; }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .service-card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .service-card:hover { transform: translateY(-10px); }
+    .service-card h3 { color: var(--orange); margin-bottom: 15px; }
+
+    /* About */
+    .about-img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid var(--gold);
+      margin: 20px auto;
+            display: block;
+    }
+
+    /* Contact */
+    .contact-info {
+      font-size: 1.3rem;
+      margin: 30px 0;
+    }
+    .contact-info a {
+      color: var(--orange);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--orange);
+      color: white;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    .btn:hover { background: var(--dark-orange); transform: scale(1.05); }
+
+    footer {
+      background: var(--dark);
+      color: #ccc;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.5rem; }
+      nav ul { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>ॐ नमः शिवाय</h1>
+    <h2>Pt. Bishnu Prasad Sharma</h2>
+    <p>वैदिक हिन्दू पुजारी • सभी प्रकार के धार्मिक अनुष्ठान एवं संस्कार</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Pandit Ji</h2>
+    <img src="https://images.unsplash.com/photo-1594737625785-122f47f8d50b?ixlib=rb-4.0.3&auto=format&fit=crop&q=80" alt="Bishnu Prasad Sharma" class="about-img"/>
+    <p style="max-width:800px; margin:20px auto; font-size:1.1rem;">
+      नमस्ते! मैं पं. विष्णु प्रसाद शर्मा हूं। 20+ वर्षों से वैदिक रीति-रिवाज से सभी प्रकार के पूजा-पाठ, विवाह, गृहप्रवेश, श्राद्ध, हवन आदि कराता आ रहा हूं। 
+      मैं काशी हिन्दू विश्वविद्यालय से शास्त्री एवं आचार्य की उपाधि प्राप्त हूं। आपकी हर धार्मिक आवश्यकता के लिए शुद्ध वैदिक मंत्रोच्चार के साथ सेवा उपलब्ध है।
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>हमारी सेवाएं</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>विवाह संस्कार</h3>
+        <p>संपूर्ण वैदिक विवाह, मंगलाष्टक, कन्यादान, फेरे आदि</p>
+      </div>
+      <div class="service-card">
+        <h3>गृहप्रवेश एवं वास्तु पूजन</h3>
+        <p>नए घर में प्रवेश के लिए पूजन एवं हवन</p>
+      </div>
+      <div class="service-card">
+        <h3>सत्यनारायण कथा</h3>
+        <p>पूर्णिमा एवं एकादशी पर कथा एवं पूजन</p>
+      </div>
+      <div class="service-card">
+        <h3>हवन एवं यज्ञ</h3>
+        <p>नवग्रह हवन, रुद्राभिषेक, चंडी हवन आदि</p>
+      </div>
+      <div class="service-card">
+        <h3>श्राद्ध एवं अंतिम संस्कार</h3>
+        <p>शास्त्रानुसार सभी विधि-विधान</p>
+      </div>
+      <div class="service-card">
+        <h3>मुंडन, नामकरण, जनेऊ</h3>
+        <p>बच्चों के सभी संस्कार</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Pandit Ji</h2>
+    <div class="contact-info">
+      <p>📱 <a href="tel:+919876543210">+91 98765 43210</a></p>
+      <p>📱 WhatsApp: <a href="https://wa.me/919876543210">+91 98765 43210</a></p>
+      <p>✉️ <a href="mailto:panditrajesh@example.com">panditrajesh@example.com</a></p>
+      <p>📍 Location: San francisco Bay Area/ NCR</p>
+    </div>
+    <a href="https://wa.me/919876543210?text=Namaste%20Pandit%20Ji%2C%20I%20need%20puja%20services" class="btn">WhatsApp पर मैसेज करें</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Pandit Rajesh Sharma • सभी अधिकार सुरक्षित • ॐ शांति शांति शांति:</p>
+  </footer>
+
+</body>
+</html>
